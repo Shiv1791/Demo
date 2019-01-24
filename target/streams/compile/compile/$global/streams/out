@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/myproject/src/main/scala/com/knoldus/app/MyDataInit.scala:11:29: missing parameter type for expanded function ((x$1: <error>, x$2) => obj2.getSnapshotDoc(x$1)(x$2))[0m
+[0m[[0m[31merror[0m] [0m[0m        obj2.getSnapshotDoc(_)(_)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/myproject/src/main/scala/com/knoldus/app/MyDataInit.scala:11:32: missing parameter type for expanded function ((x$1: <error>, x$2: <error>) => obj2.getSnapshotDoc(x$1)(x$2))[0m
+[0m[[0m[31merror[0m] [0m[0m        obj2.getSnapshotDoc(_)(_)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

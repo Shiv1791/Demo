@@ -1,0 +1,1527 @@
+[info] Updating ...
+[debug] :: building artificial module descriptors from myproject#myproject_2.12;0.1
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} (artifacts: )
+[debug] ::: dd: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) (artifacts: )
+[debug] ::: dd: dependency: org.scalatest#scalatest_2.12;3.0.5 {test=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: org.mockito#mockito-core;2.23.0 {test=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.typesafe#config;1.3.3 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: org.apache.kafka#kafka_2.12;2.1.0 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.typesafe.akka#akka-actor_2.12;2.5.19 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.typesafe.akka#akka-stream_2.12;2.5.19 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.typesafe.akka#akka-testkit_2.12;2.5.19 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.typesafe.akka#akka-http_2.12;10.1.6 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.typesafe.akka#akka-http-spray-json_2.12;10.1.6 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.typesafe.akka#akka-http-testkit_2.12;10.1.6 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.google.firebase#firebase-admin;6.6.0 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: ch.qos.logback#logback-classic;1.2.3 {compile=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.lightbend.akka#akka-stream-alpakka-google-fcm_2.12;1.0-M1 {compile=[default(compile)]} (artifacts: )
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/org.scala-lang/scala-compiler/2.12.8_temp-resolve-7ff7097044a60343ec913c69a6e8a740e301349d/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/org.scala-lang/scala-library/2.12.8_temp-resolve-e92758d28a00faab54f8b344dd783a3cbca9fa72/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/org.scalatest/scalatest_2.12/3.0.5_temp-resolve-f252f5371cbd9a144f1392e549a83f83e39a41be/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/org.mockito/mockito-core/2.23.0_temp-resolve-1eabbfd22f2fd343c5729dbe50a1aa50878aa2a6/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.typesafe/config/1.3.3_temp-resolve-54d6ef76694967d288d3e4a656f8e7c58e70b038/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/org.apache.kafka/kafka_2.12/2.1.0_temp-resolve-3c6886a3975cf00444f53d6e18894dd148e5654c/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.typesafe.akka/akka-actor_2.12/2.5.19_temp-resolve-99924ce26b847cde1d1ba245eca241ea4b75649f/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.typesafe.akka/akka-stream_2.12/2.5.19_temp-resolve-24b017acd4952d82ecdd32b97a601be5eeac1d76/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.typesafe.akka/akka-testkit_2.12/2.5.19_temp-resolve-c332b6cbb5961f96a2d1ec4387b4d0c56bead19e/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.typesafe.akka/akka-http_2.12/10.1.6_temp-resolve-7ce4ef739a818eff7f923236507d08953ebe673e/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.typesafe.akka/akka-http-spray-json_2.12/10.1.6_temp-resolve-3548dba04998d3571af7821bd0ffb45ab0e949fe/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.typesafe.akka/akka-http-testkit_2.12/10.1.6_temp-resolve-a1b6206116a808b661c5dd5e4bded26ec06391de/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.google.firebase/firebase-admin/6.6.0_temp-resolve-5ba5f06ed8cf0070acdeb2ca778de58144c9ee8d/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/ch.qos.logback/logback-classic/1.2.3_temp-resolve-e83181c630b50f32870e18a44cee80c3e9a25905/graphs/graph.json
+[debug] parsing /home/knoldus/.sbt/1.0/dependency/module/static/com.lightbend.akka/akka-stream-alpakka-google-fcm_2.12/1.0-M1_temp-resolve-44c0d092f7aaefb2cfbe15b9107c6a372b83736a/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.apache.yetus:audience-annotations, org.scala-lang:scala-reflect, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava
+[debug] :: no conflict compile: org.apache.kafka:kafka_2.12
+[debug] :: no conflict compile: com.typesafe.akka:akka-testkit_2.12
+[debug] :: no conflict compile: com.typesafe.akka:akka-http-testkit_2.12
+[debug] :: no conflict compile: com.google.firebase:firebase-admin
+[debug] :: no conflict compile: ch.qos.logback:logback-classic
+[debug] :: no conflict compile: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12
+[debug] :: no conflict compile: org.apache.zookeeper:zookeeper
+[debug] :: no conflict compile: com.101tec:zkclient
+[debug] :: no conflict compile: com.typesafe.scala-logging:scala-logging_2.12
+[debug] :: no conflict compile: com.yammer.metrics:metrics-core
+[debug] :: no conflict compile: net.sf.jopt-simple:jopt-simple
+[debug] :: no conflict compile: org.apache.kafka:kafka-clients
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-databind
+[debug] :: merging module reports for compile: com.typesafe.akka:akka-stream_2.12
+[debug] ::: resolving conflict in compile:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(com.typesafe.akka:akka-stream_2.12:2.5.16 (), 2.5.16, 1535564115000), ModuleReportArtifactInfo(com.typesafe.akka:akka-stream_2.12:2.5.19 (), 2.5.19, 1544181979000))
+[debug] ::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()
+[debug] :::: transitively evicted compile: org.reactivestreams:reactive-streams:1.0.2
+[debug] :::: transitively evicted compile: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :::: transitively evicted compile: com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted compile: com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :: merging module reports for compile: com.typesafe.akka:akka-http-spray-json_2.12
+[debug] ::: resolving conflict in compile:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), 10.1.6, 1545153063000), ModuleReportArtifactInfo(com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 (), 10.1.5, 1536161318000))
+[debug] ::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()
+[debug] :::: transitively evicted compile: io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict compile: io.netty:netty-codec-http
+[debug] :: no conflict compile: io.netty:netty-handler
+[debug] :: no conflict compile: org.json:json
+[debug] :: no conflict compile: com.google.cloud:google-cloud-firestore
+[debug] :: no conflict compile: com.google.cloud:google-cloud-storage
+[debug] :: no conflict compile: com.google.api-client:google-api-client-gson
+[debug] :: no conflict compile: ch.qos.logback:logback-core
+[debug] :: no conflict compile: com.pauldijou:jwt-core_2.12
+[debug] :: no conflict compile: org.apache.yetus:audience-annotations
+[debug] :: no conflict compile: org.scala-lang:scala-reflect
+[debug] :: no conflict compile: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: merging module reports for compile: org.slf4j:slf4j-api
+[debug] ::: adds org.slf4j:slf4j-api:1.7.25
+[debug] ::: evicted 
+[debug] :: no conflict compile: org.xerial.snappy:snappy-java
+[debug] :: no conflict compile: org.lz4:lz4-java
+[debug] :: no conflict compile: com.github.luben:zstd-jni
+[debug] :: merging module reports for compile: com.typesafe.akka:akka-actor_2.12
+[debug] ::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted compile: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] :: merging module reports for compile: com.typesafe:ssl-config-core_2.12
+[debug] ::: adds com.typesafe:ssl-config-core_2.12:0.3.6
+[debug] ::: evicted com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :::: transitively evicted compile: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] :: merging module reports for compile: org.reactivestreams:reactive-streams
+[debug] ::: adds org.reactivestreams:reactive-streams:1.0.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: com.typesafe.akka:akka-protobuf_2.12
+[debug] ::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :: merging module reports for compile: com.typesafe.akka:akka-http_2.12
+[debug] ::: resolving conflict in compile:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(com.typesafe.akka:akka-http_2.12:10.1.6 (), 10.1.6, 1545153105000), ModuleReportArtifactInfo(com.typesafe.akka:akka-http_2.12:10.1.5 (), 10.1.5, 1536162536000))
+[debug] ::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()
+[debug] :::: transitively evicted compile: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :: merging module reports for compile: io.spray:spray-json_2.12
+[debug] ::: adds io.spray:spray-json_2.12:1.3.5
+[debug] ::: evicted io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict compile: io.netty:netty-codec
+[debug] :: no conflict compile: io.opencensus:opencensus-contrib-grpc-util
+[debug] :: no conflict compile: com.google.auto.value:auto-value
+[debug] :: no conflict compile: com.google.api.grpc:proto-google-cloud-firestore-v1beta1
+[debug] :: no conflict compile: com.google.cloud:google-cloud-core-grpc
+[debug] :: no conflict compile: com.google.apis:google-api-services-storage
+[debug] :: no conflict compile: com.google.cloud:google-cloud-core-http
+[debug] :: no conflict compile: com.google.http-client:google-http-client-gson
+[debug] :: no conflict compile: org.bouncycastle:bcpkix-jdk15on
+[debug] :: no conflict compile: com.pauldijou:jwt-core-impl_2.12
+[debug] :: merging module reports for compile: com.typesafe:config
+[debug] ::: adds com.typesafe:config:1.3.3
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] ::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] ::: evicted 
+[debug] :: merging module reports for compile: com.typesafe.akka:akka-http-core_2.12
+[debug] ::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :::: transitively evicted compile: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict compile: io.netty:netty-transport
+[debug] :: no conflict compile: com.google.api:gax-grpc
+[debug] :: no conflict compile: io.grpc:grpc-netty-shaded
+[debug] :: no conflict compile: io.opencensus:opencensus-contrib-http-util
+[debug] :: no conflict compile: com.google.api:gax-httpjson
+[debug] :: no conflict compile: com.google.http-client:google-http-client-jackson
+[debug] :: no conflict compile: com.google.http-client:google-http-client-appengine
+[debug] :: no conflict compile: com.google.cloud:google-cloud-core
+[debug] :: no conflict compile: com.google.api-client:google-api-client
+[debug] :: no conflict compile: org.bouncycastle:bcprov-jdk15on
+[debug] :: merging module reports for compile: com.typesafe.akka:akka-parsing_2.12
+[debug] ::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict compile: io.netty:netty-resolver
+[debug] :: no conflict compile: io.netty:netty-buffer
+[debug] :: no conflict compile: io.grpc:grpc-stub
+[debug] :: no conflict compile: io.grpc:grpc-protobuf
+[debug] :: no conflict compile: io.grpc:grpc-auth
+[debug] :: no conflict compile: org.codehaus.jackson:jackson-core-asl
+[debug] :: no conflict compile: com.google.api.grpc:proto-google-iam-v1
+[debug] :: no conflict compile: com.google.protobuf:protobuf-java-util
+[debug] :: no conflict compile: com.google.api:gax
+[debug] :: no conflict compile: joda-time:joda-time
+[debug] :: no conflict compile: com.google.oauth-client:google-oauth-client
+[debug] :: merging module reports for compile: org.scala-lang:scala-library
+[debug] ::: resolving conflict in compile:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))
+[debug] ::: adds org.scala-lang:scala-library:2.12.8 ()
+[debug] ::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.7 ()
+[debug] :: no conflict compile: io.netty:netty-common
+[debug] :: no conflict compile: io.grpc:grpc-protobuf-lite
+[debug] :: no conflict compile: com.google.api.grpc:proto-google-common-protos
+[debug] :: no conflict compile: org.threeten:threetenbp
+[debug] :: no conflict compile: com.google.auth:google-auth-library-oauth2-http
+[debug] :: no conflict compile: com.google.api:api-common
+[debug] :: no conflict compile: io.grpc:grpc-core
+[debug] :: no conflict compile: com.google.protobuf:protobuf-java
+[debug] :: no conflict compile: com.google.auth:google-auth-library-credentials
+[debug] :: no conflict compile: com.google.http-client:google-http-client-jackson2
+[debug] :: merging module reports for compile: com.fasterxml.jackson.core:jackson-core
+[debug] ::: resolving conflict in compile:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(com.fasterxml.jackson.core:jackson-core:2.9.6, 2.9.6, 1528764891000), ModuleReportArtifactInfo(com.fasterxml.jackson.core:jackson-core:2.9.7, 2.9.7, 1537324949000))
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.7
+[debug] ::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6
+[debug] :: no conflict compile: io.opencensus:opencensus-contrib-grpc-metrics
+[debug] :: no conflict compile: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict compile: com.google.code.gson:gson
+[debug] :: no conflict compile: com.google.http-client:google-http-client
+[debug] :: no conflict compile: io.opencensus:opencensus-api
+[debug] :: no conflict compile: org.apache.httpcomponents:httpclient
+[debug] :: no conflict compile: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict compile: com.google.code.findbugs:jsr305
+[debug] :: no conflict compile: io.grpc:grpc-context
+[debug] :: no conflict compile: commons-codec:commons-codec
+[debug] :: no conflict compile: org.apache.httpcomponents:httpcore
+[debug] :: no conflict compile: commons-logging:commons-logging
+[debug] :: no conflict compile: com.google.guava:guava
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.apache.yetus:audience-annotations, org.scala-lang:scala-reflect, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava
+[debug] :: no conflict runtime: org.apache.kafka:kafka_2.12
+[debug] :: no conflict runtime: com.typesafe.akka:akka-testkit_2.12
+[debug] :: no conflict runtime: com.typesafe.akka:akka-http-testkit_2.12
+[debug] :: no conflict runtime: com.google.firebase:firebase-admin
+[debug] :: no conflict runtime: ch.qos.logback:logback-classic
+[debug] :: no conflict runtime: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12
+[debug] :: no conflict runtime: org.apache.zookeeper:zookeeper
+[debug] :: no conflict runtime: com.101tec:zkclient
+[debug] :: no conflict runtime: com.typesafe.scala-logging:scala-logging_2.12
+[debug] :: no conflict runtime: com.yammer.metrics:metrics-core
+[debug] :: no conflict runtime: net.sf.jopt-simple:jopt-simple
+[debug] :: no conflict runtime: org.apache.kafka:kafka-clients
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-databind
+[debug] :: merging module reports for runtime: com.typesafe.akka:akka-stream_2.12
+[debug] ::: resolving conflict in runtime:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())
+[debug] ::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()
+[debug] :::: transitively evicted runtime: org.reactivestreams:reactive-streams:1.0.2
+[debug] :::: transitively evicted runtime: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :::: transitively evicted runtime: com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted runtime: com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :: merging module reports for runtime: com.typesafe.akka:akka-http-spray-json_2.12
+[debug] ::: resolving conflict in runtime:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()
+[debug] :::: transitively evicted runtime: io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict runtime: io.netty:netty-codec-http
+[debug] :: no conflict runtime: io.netty:netty-handler
+[debug] :: no conflict runtime: org.json:json
+[debug] :: no conflict runtime: com.google.cloud:google-cloud-firestore
+[debug] :: no conflict runtime: com.google.cloud:google-cloud-storage
+[debug] :: no conflict runtime: com.google.api-client:google-api-client-gson
+[debug] :: no conflict runtime: ch.qos.logback:logback-core
+[debug] :: no conflict runtime: com.pauldijou:jwt-core_2.12
+[debug] :: no conflict runtime: org.apache.yetus:audience-annotations
+[debug] :: no conflict runtime: org.scala-lang:scala-reflect
+[debug] :: no conflict runtime: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: merging module reports for runtime: org.slf4j:slf4j-api
+[debug] ::: adds org.slf4j:slf4j-api:1.7.25
+[debug] ::: evicted 
+[debug] :: no conflict runtime: org.xerial.snappy:snappy-java
+[debug] :: no conflict runtime: org.lz4:lz4-java
+[debug] :: no conflict runtime: com.github.luben:zstd-jni
+[debug] :: merging module reports for runtime: com.typesafe.akka:akka-actor_2.12
+[debug] ::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted runtime: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] :: merging module reports for runtime: com.typesafe:ssl-config-core_2.12
+[debug] ::: adds com.typesafe:ssl-config-core_2.12:0.3.6
+[debug] ::: evicted com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :::: transitively evicted runtime: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] :: merging module reports for runtime: org.reactivestreams:reactive-streams
+[debug] ::: adds org.reactivestreams:reactive-streams:1.0.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: com.typesafe.akka:akka-protobuf_2.12
+[debug] ::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :: merging module reports for runtime: com.typesafe.akka:akka-http_2.12
+[debug] ::: resolving conflict in runtime:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()
+[debug] :::: transitively evicted runtime: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :: merging module reports for runtime: io.spray:spray-json_2.12
+[debug] ::: adds io.spray:spray-json_2.12:1.3.5
+[debug] ::: evicted io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict runtime: io.netty:netty-codec
+[debug] :: no conflict runtime: io.opencensus:opencensus-contrib-grpc-util
+[debug] :: no conflict runtime: com.google.auto.value:auto-value
+[debug] :: no conflict runtime: com.google.api.grpc:proto-google-cloud-firestore-v1beta1
+[debug] :: no conflict runtime: com.google.cloud:google-cloud-core-grpc
+[debug] :: no conflict runtime: com.google.apis:google-api-services-storage
+[debug] :: no conflict runtime: com.google.cloud:google-cloud-core-http
+[debug] :: no conflict runtime: com.google.http-client:google-http-client-gson
+[debug] :: no conflict runtime: org.bouncycastle:bcpkix-jdk15on
+[debug] :: no conflict runtime: com.pauldijou:jwt-core-impl_2.12
+[debug] :: merging module reports for runtime: com.typesafe:config
+[debug] ::: adds com.typesafe:config:1.3.3
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] ::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime: com.typesafe.akka:akka-http-core_2.12
+[debug] ::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :::: transitively evicted runtime: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict runtime: io.netty:netty-transport
+[debug] :: no conflict runtime: com.google.api:gax-grpc
+[debug] :: no conflict runtime: io.grpc:grpc-netty-shaded
+[debug] :: no conflict runtime: io.opencensus:opencensus-contrib-http-util
+[debug] :: no conflict runtime: com.google.api:gax-httpjson
+[debug] :: no conflict runtime: com.google.http-client:google-http-client-jackson
+[debug] :: no conflict runtime: com.google.http-client:google-http-client-appengine
+[debug] :: no conflict runtime: com.google.cloud:google-cloud-core
+[debug] :: no conflict runtime: com.google.api-client:google-api-client
+[debug] :: no conflict runtime: org.bouncycastle:bcprov-jdk15on
+[debug] :: merging module reports for runtime: com.typesafe.akka:akka-parsing_2.12
+[debug] ::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict runtime: io.netty:netty-resolver
+[debug] :: no conflict runtime: io.netty:netty-buffer
+[debug] :: no conflict runtime: io.grpc:grpc-stub
+[debug] :: no conflict runtime: io.grpc:grpc-protobuf
+[debug] :: no conflict runtime: io.grpc:grpc-auth
+[debug] :: no conflict runtime: org.codehaus.jackson:jackson-core-asl
+[debug] :: no conflict runtime: com.google.api.grpc:proto-google-iam-v1
+[debug] :: no conflict runtime: com.google.protobuf:protobuf-java-util
+[debug] :: no conflict runtime: com.google.api:gax
+[debug] :: no conflict runtime: joda-time:joda-time
+[debug] :: no conflict runtime: com.google.oauth-client:google-oauth-client
+[debug] :: merging module reports for runtime: org.scala-lang:scala-library
+[debug] ::: resolving conflict in runtime:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))
+[debug] ::: adds org.scala-lang:scala-library:2.12.8 ()
+[debug] ::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.7 ()
+[debug] :: no conflict runtime: io.netty:netty-common
+[debug] :: no conflict runtime: io.grpc:grpc-protobuf-lite
+[debug] :: no conflict runtime: com.google.api.grpc:proto-google-common-protos
+[debug] :: no conflict runtime: org.threeten:threetenbp
+[debug] :: no conflict runtime: com.google.auth:google-auth-library-oauth2-http
+[debug] :: no conflict runtime: com.google.api:api-common
+[debug] :: no conflict runtime: io.grpc:grpc-core
+[debug] :: no conflict runtime: com.google.protobuf:protobuf-java
+[debug] :: no conflict runtime: com.google.auth:google-auth-library-credentials
+[debug] :: no conflict runtime: com.google.http-client:google-http-client-jackson2
+[debug] :: merging module reports for runtime: com.fasterxml.jackson.core:jackson-core
+[debug] ::: resolving conflict in runtime:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.7
+[debug] ::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6
+[debug] :: no conflict runtime: io.opencensus:opencensus-contrib-grpc-metrics
+[debug] :: no conflict runtime: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict runtime: com.google.code.gson:gson
+[debug] :: no conflict runtime: com.google.http-client:google-http-client
+[debug] :: no conflict runtime: io.opencensus:opencensus-api
+[debug] :: no conflict runtime: org.apache.httpcomponents:httpclient
+[debug] :: no conflict runtime: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict runtime: com.google.code.findbugs:jsr305
+[debug] :: no conflict runtime: io.grpc:grpc-context
+[debug] :: no conflict runtime: commons-codec:commons-codec
+[debug] :: no conflict runtime: org.apache.httpcomponents:httpcore
+[debug] :: no conflict runtime: commons-logging:commons-logging
+[debug] :: no conflict runtime: com.google.guava:guava
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: org.scalatest:scalatest_2.12, org.mockito:mockito-core, org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.scala-lang.modules:scala-xml_2.12, org.scalactic:scalactic_2.12, org.objenesis:objenesis, net.bytebuddy:byte-buddy-agent, net.bytebuddy:byte-buddy, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.scala-lang:scala-reflect, org.apache.yetus:audience-annotations, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava
+[debug] :: no conflict test: org.scalatest:scalatest_2.12
+[debug] :: no conflict test: org.mockito:mockito-core
+[debug] :: no conflict test: org.apache.kafka:kafka_2.12
+[debug] :: no conflict test: com.typesafe.akka:akka-testkit_2.12
+[debug] :: no conflict test: com.typesafe.akka:akka-http-testkit_2.12
+[debug] :: no conflict test: com.google.firebase:firebase-admin
+[debug] :: no conflict test: ch.qos.logback:logback-classic
+[debug] :: no conflict test: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12
+[debug] :: no conflict test: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict test: org.scalactic:scalactic_2.12
+[debug] :: no conflict test: org.objenesis:objenesis
+[debug] :: no conflict test: net.bytebuddy:byte-buddy-agent
+[debug] :: no conflict test: net.bytebuddy:byte-buddy
+[debug] :: no conflict test: org.apache.zookeeper:zookeeper
+[debug] :: no conflict test: com.101tec:zkclient
+[debug] :: no conflict test: com.typesafe.scala-logging:scala-logging_2.12
+[debug] :: no conflict test: com.yammer.metrics:metrics-core
+[debug] :: no conflict test: net.sf.jopt-simple:jopt-simple
+[debug] :: no conflict test: org.apache.kafka:kafka-clients
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-databind
+[debug] :: merging module reports for test: com.typesafe.akka:akka-stream_2.12
+[debug] ::: resolving conflict in test:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())
+[debug] ::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()
+[debug] :::: transitively evicted test: org.reactivestreams:reactive-streams:1.0.2
+[debug] :::: transitively evicted test: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :::: transitively evicted test: com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted test: com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :: merging module reports for test: com.typesafe.akka:akka-http-spray-json_2.12
+[debug] ::: resolving conflict in test:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()
+[debug] :::: transitively evicted test: io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict test: io.netty:netty-codec-http
+[debug] :: no conflict test: io.netty:netty-handler
+[debug] :: no conflict test: org.json:json
+[debug] :: no conflict test: com.google.cloud:google-cloud-firestore
+[debug] :: no conflict test: com.google.cloud:google-cloud-storage
+[debug] :: no conflict test: com.google.api-client:google-api-client-gson
+[debug] :: no conflict test: ch.qos.logback:logback-core
+[debug] :: no conflict test: com.pauldijou:jwt-core_2.12
+[debug] :: merging module reports for test: org.scala-lang:scala-reflect
+[debug] ::: resolving conflict in test:org.scala-lang:scala-reflect (org.scala-lang:scala-reflect:2.12.7 (), org.scala-lang:scala-reflect:2.12.4 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-reflect:2.12.7 (), 2.12.7, 1538037123000), ModuleReportArtifactInfo(org.scala-lang:scala-reflect:2.12.4 (), 2.12.4, 1507706544000))
+[debug] ::: adds org.scala-lang:scala-reflect:2.12.7 ()
+[debug] ::: evicted org.scala-lang:scala-reflect:2.12.4 ()
+[debug] :: no conflict test: org.apache.yetus:audience-annotations
+[debug] :: no conflict test: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: merging module reports for test: org.slf4j:slf4j-api
+[debug] ::: adds org.slf4j:slf4j-api:1.7.25
+[debug] ::: evicted 
+[debug] :: no conflict test: org.xerial.snappy:snappy-java
+[debug] :: no conflict test: org.lz4:lz4-java
+[debug] :: no conflict test: com.github.luben:zstd-jni
+[debug] :: merging module reports for test: com.typesafe.akka:akka-actor_2.12
+[debug] ::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted test: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] :: merging module reports for test: com.typesafe:ssl-config-core_2.12
+[debug] ::: adds com.typesafe:ssl-config-core_2.12:0.3.6
+[debug] ::: evicted com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :::: transitively evicted test: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] :: merging module reports for test: org.reactivestreams:reactive-streams
+[debug] ::: adds org.reactivestreams:reactive-streams:1.0.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.typesafe.akka:akka-protobuf_2.12
+[debug] ::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :: merging module reports for test: com.typesafe.akka:akka-http_2.12
+[debug] ::: resolving conflict in test:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()
+[debug] :::: transitively evicted test: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :: merging module reports for test: io.spray:spray-json_2.12
+[debug] ::: adds io.spray:spray-json_2.12:1.3.5
+[debug] ::: evicted io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict test: io.netty:netty-codec
+[debug] :: no conflict test: io.opencensus:opencensus-contrib-grpc-util
+[debug] :: no conflict test: com.google.auto.value:auto-value
+[debug] :: no conflict test: com.google.api.grpc:proto-google-cloud-firestore-v1beta1
+[debug] :: no conflict test: com.google.cloud:google-cloud-core-grpc
+[debug] :: no conflict test: com.google.apis:google-api-services-storage
+[debug] :: no conflict test: com.google.cloud:google-cloud-core-http
+[debug] :: no conflict test: com.google.http-client:google-http-client-gson
+[debug] :: no conflict test: org.bouncycastle:bcpkix-jdk15on
+[debug] :: no conflict test: com.pauldijou:jwt-core-impl_2.12
+[debug] :: merging module reports for test: com.typesafe:config
+[debug] ::: adds com.typesafe:config:1.3.3
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] ::: evicted 
+[debug] :: merging module reports for test: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] ::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] ::: evicted 
+[debug] :: merging module reports for test: com.typesafe.akka:akka-http-core_2.12
+[debug] ::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :::: transitively evicted test: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict test: io.netty:netty-transport
+[debug] :: no conflict test: com.google.api:gax-grpc
+[debug] :: no conflict test: io.grpc:grpc-netty-shaded
+[debug] :: no conflict test: io.opencensus:opencensus-contrib-http-util
+[debug] :: no conflict test: com.google.api:gax-httpjson
+[debug] :: no conflict test: com.google.http-client:google-http-client-jackson
+[debug] :: no conflict test: com.google.http-client:google-http-client-appengine
+[debug] :: no conflict test: com.google.cloud:google-cloud-core
+[debug] :: no conflict test: com.google.api-client:google-api-client
+[debug] :: no conflict test: org.bouncycastle:bcprov-jdk15on
+[debug] :: merging module reports for test: com.typesafe.akka:akka-parsing_2.12
+[debug] ::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict test: io.netty:netty-resolver
+[debug] :: no conflict test: io.netty:netty-buffer
+[debug] :: no conflict test: io.grpc:grpc-stub
+[debug] :: no conflict test: io.grpc:grpc-protobuf
+[debug] :: no conflict test: io.grpc:grpc-auth
+[debug] :: no conflict test: org.codehaus.jackson:jackson-core-asl
+[debug] :: no conflict test: com.google.api.grpc:proto-google-iam-v1
+[debug] :: no conflict test: com.google.protobuf:protobuf-java-util
+[debug] :: no conflict test: com.google.api:gax
+[debug] :: no conflict test: joda-time:joda-time
+[debug] :: no conflict test: com.google.oauth-client:google-oauth-client
+[debug] :: merging module reports for test: org.scala-lang:scala-library
+[debug] ::: resolving conflict in test:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.4 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.4 (), 2.12.4, 1507705496000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))
+[debug] ::: adds org.scala-lang:scala-library:2.12.8 ()
+[debug] ::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.4 (), org.scala-lang:scala-library:2.12.7 ()
+[debug] :: no conflict test: io.netty:netty-common
+[debug] :: no conflict test: io.grpc:grpc-protobuf-lite
+[debug] :: no conflict test: com.google.api.grpc:proto-google-common-protos
+[debug] :: no conflict test: org.threeten:threetenbp
+[debug] :: no conflict test: com.google.auth:google-auth-library-oauth2-http
+[debug] :: no conflict test: com.google.api:api-common
+[debug] :: no conflict test: io.grpc:grpc-core
+[debug] :: no conflict test: com.google.protobuf:protobuf-java
+[debug] :: no conflict test: com.google.auth:google-auth-library-credentials
+[debug] :: no conflict test: com.google.http-client:google-http-client-jackson2
+[debug] :: merging module reports for test: com.fasterxml.jackson.core:jackson-core
+[debug] ::: resolving conflict in test:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.7
+[debug] ::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6
+[debug] :: no conflict test: io.opencensus:opencensus-contrib-grpc-metrics
+[debug] :: no conflict test: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict test: com.google.code.gson:gson
+[debug] :: no conflict test: com.google.http-client:google-http-client
+[debug] :: no conflict test: io.opencensus:opencensus-api
+[debug] :: no conflict test: org.apache.httpcomponents:httpclient
+[debug] :: no conflict test: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict test: com.google.code.findbugs:jsr305
+[debug] :: no conflict test: io.grpc:grpc-context
+[debug] :: no conflict test: commons-codec:commons-codec
+[debug] :: no conflict test: org.apache.httpcomponents:httpcore
+[debug] :: no conflict test: commons-logging:commons-logging
+[debug] :: no conflict test: com.google.guava:guava
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.apache.yetus:audience-annotations, org.scala-lang:scala-reflect, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava
+[debug] :: no conflict compile-internal: org.apache.kafka:kafka_2.12
+[debug] :: no conflict compile-internal: com.typesafe.akka:akka-testkit_2.12
+[debug] :: no conflict compile-internal: com.typesafe.akka:akka-http-testkit_2.12
+[debug] :: no conflict compile-internal: com.google.firebase:firebase-admin
+[debug] :: no conflict compile-internal: ch.qos.logback:logback-classic
+[debug] :: no conflict compile-internal: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12
+[debug] :: no conflict compile-internal: org.apache.zookeeper:zookeeper
+[debug] :: no conflict compile-internal: com.101tec:zkclient
+[debug] :: no conflict compile-internal: com.typesafe.scala-logging:scala-logging_2.12
+[debug] :: no conflict compile-internal: com.yammer.metrics:metrics-core
+[debug] :: no conflict compile-internal: net.sf.jopt-simple:jopt-simple
+[debug] :: no conflict compile-internal: org.apache.kafka:kafka-clients
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: merging module reports for compile-internal: com.typesafe.akka:akka-stream_2.12
+[debug] ::: resolving conflict in compile-internal:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())
+[debug] ::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()
+[debug] :::: transitively evicted compile-internal: org.reactivestreams:reactive-streams:1.0.2
+[debug] :::: transitively evicted compile-internal: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :::: transitively evicted compile-internal: com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted compile-internal: com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :: merging module reports for compile-internal: com.typesafe.akka:akka-http-spray-json_2.12
+[debug] ::: resolving conflict in compile-internal:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()
+[debug] :::: transitively evicted compile-internal: io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict compile-internal: io.netty:netty-codec-http
+[debug] :: no conflict compile-internal: io.netty:netty-handler
+[debug] :: no conflict compile-internal: org.json:json
+[debug] :: no conflict compile-internal: com.google.cloud:google-cloud-firestore
+[debug] :: no conflict compile-internal: com.google.cloud:google-cloud-storage
+[debug] :: no conflict compile-internal: com.google.api-client:google-api-client-gson
+[debug] :: no conflict compile-internal: ch.qos.logback:logback-core
+[debug] :: no conflict compile-internal: com.pauldijou:jwt-core_2.12
+[debug] :: no conflict compile-internal: org.apache.yetus:audience-annotations
+[debug] :: no conflict compile-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict compile-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: merging module reports for compile-internal: org.slf4j:slf4j-api
+[debug] ::: adds org.slf4j:slf4j-api:1.7.25
+[debug] ::: evicted 
+[debug] :: no conflict compile-internal: org.xerial.snappy:snappy-java
+[debug] :: no conflict compile-internal: org.lz4:lz4-java
+[debug] :: no conflict compile-internal: com.github.luben:zstd-jni
+[debug] :: merging module reports for compile-internal: com.typesafe.akka:akka-actor_2.12
+[debug] ::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted compile-internal: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] :: merging module reports for compile-internal: com.typesafe:ssl-config-core_2.12
+[debug] ::: adds com.typesafe:ssl-config-core_2.12:0.3.6
+[debug] ::: evicted com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :::: transitively evicted compile-internal: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] :: merging module reports for compile-internal: org.reactivestreams:reactive-streams
+[debug] ::: adds org.reactivestreams:reactive-streams:1.0.2
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: com.typesafe.akka:akka-protobuf_2.12
+[debug] ::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :: merging module reports for compile-internal: com.typesafe.akka:akka-http_2.12
+[debug] ::: resolving conflict in compile-internal:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()
+[debug] :::: transitively evicted compile-internal: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :: merging module reports for compile-internal: io.spray:spray-json_2.12
+[debug] ::: adds io.spray:spray-json_2.12:1.3.5
+[debug] ::: evicted io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict compile-internal: io.netty:netty-codec
+[debug] :: no conflict compile-internal: io.opencensus:opencensus-contrib-grpc-util
+[debug] :: no conflict compile-internal: com.google.auto.value:auto-value
+[debug] :: no conflict compile-internal: com.google.api.grpc:proto-google-cloud-firestore-v1beta1
+[debug] :: no conflict compile-internal: com.google.cloud:google-cloud-core-grpc
+[debug] :: no conflict compile-internal: com.google.apis:google-api-services-storage
+[debug] :: no conflict compile-internal: com.google.cloud:google-cloud-core-http
+[debug] :: no conflict compile-internal: com.google.http-client:google-http-client-gson
+[debug] :: no conflict compile-internal: org.bouncycastle:bcpkix-jdk15on
+[debug] :: no conflict compile-internal: com.pauldijou:jwt-core-impl_2.12
+[debug] :: merging module reports for compile-internal: com.typesafe:config
+[debug] ::: adds com.typesafe:config:1.3.3
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] ::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] ::: evicted 
+[debug] :: merging module reports for compile-internal: com.typesafe.akka:akka-http-core_2.12
+[debug] ::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :::: transitively evicted compile-internal: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict compile-internal: io.netty:netty-transport
+[debug] :: no conflict compile-internal: com.google.api:gax-grpc
+[debug] :: no conflict compile-internal: io.grpc:grpc-netty-shaded
+[debug] :: no conflict compile-internal: io.opencensus:opencensus-contrib-http-util
+[debug] :: no conflict compile-internal: com.google.api:gax-httpjson
+[debug] :: no conflict compile-internal: com.google.http-client:google-http-client-jackson
+[debug] :: no conflict compile-internal: com.google.http-client:google-http-client-appengine
+[debug] :: no conflict compile-internal: com.google.cloud:google-cloud-core
+[debug] :: no conflict compile-internal: com.google.api-client:google-api-client
+[debug] :: no conflict compile-internal: org.bouncycastle:bcprov-jdk15on
+[debug] :: merging module reports for compile-internal: com.typesafe.akka:akka-parsing_2.12
+[debug] ::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict compile-internal: io.netty:netty-resolver
+[debug] :: no conflict compile-internal: io.netty:netty-buffer
+[debug] :: no conflict compile-internal: io.grpc:grpc-stub
+[debug] :: no conflict compile-internal: io.grpc:grpc-protobuf
+[debug] :: no conflict compile-internal: io.grpc:grpc-auth
+[debug] :: no conflict compile-internal: org.codehaus.jackson:jackson-core-asl
+[debug] :: no conflict compile-internal: com.google.api.grpc:proto-google-iam-v1
+[debug] :: no conflict compile-internal: com.google.protobuf:protobuf-java-util
+[debug] :: no conflict compile-internal: com.google.api:gax
+[debug] :: no conflict compile-internal: joda-time:joda-time
+[debug] :: no conflict compile-internal: com.google.oauth-client:google-oauth-client
+[debug] :: merging module reports for compile-internal: org.scala-lang:scala-library
+[debug] ::: resolving conflict in compile-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))
+[debug] ::: adds org.scala-lang:scala-library:2.12.8 ()
+[debug] ::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.7 ()
+[debug] :: no conflict compile-internal: io.netty:netty-common
+[debug] :: no conflict compile-internal: io.grpc:grpc-protobuf-lite
+[debug] :: no conflict compile-internal: com.google.api.grpc:proto-google-common-protos
+[debug] :: no conflict compile-internal: org.threeten:threetenbp
+[debug] :: no conflict compile-internal: com.google.auth:google-auth-library-oauth2-http
+[debug] :: no conflict compile-internal: com.google.api:api-common
+[debug] :: no conflict compile-internal: io.grpc:grpc-core
+[debug] :: no conflict compile-internal: com.google.protobuf:protobuf-java
+[debug] :: no conflict compile-internal: com.google.auth:google-auth-library-credentials
+[debug] :: no conflict compile-internal: com.google.http-client:google-http-client-jackson2
+[debug] :: merging module reports for compile-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: resolving conflict in compile-internal:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.7
+[debug] ::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6
+[debug] :: no conflict compile-internal: io.opencensus:opencensus-contrib-grpc-metrics
+[debug] :: no conflict compile-internal: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict compile-internal: com.google.code.gson:gson
+[debug] :: no conflict compile-internal: com.google.http-client:google-http-client
+[debug] :: no conflict compile-internal: io.opencensus:opencensus-api
+[debug] :: no conflict compile-internal: org.apache.httpcomponents:httpclient
+[debug] :: no conflict compile-internal: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict compile-internal: com.google.code.findbugs:jsr305
+[debug] :: no conflict compile-internal: io.grpc:grpc-context
+[debug] :: no conflict compile-internal: commons-codec:commons-codec
+[debug] :: no conflict compile-internal: org.apache.httpcomponents:httpcore
+[debug] :: no conflict compile-internal: commons-logging:commons-logging
+[debug] :: no conflict compile-internal: com.google.guava:guava
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.apache.yetus:audience-annotations, org.scala-lang:scala-reflect, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava
+[debug] :: no conflict runtime-internal: org.apache.kafka:kafka_2.12
+[debug] :: no conflict runtime-internal: com.typesafe.akka:akka-testkit_2.12
+[debug] :: no conflict runtime-internal: com.typesafe.akka:akka-http-testkit_2.12
+[debug] :: no conflict runtime-internal: com.google.firebase:firebase-admin
+[debug] :: no conflict runtime-internal: ch.qos.logback:logback-classic
+[debug] :: no conflict runtime-internal: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12
+[debug] :: no conflict runtime-internal: org.apache.zookeeper:zookeeper
+[debug] :: no conflict runtime-internal: com.101tec:zkclient
+[debug] :: no conflict runtime-internal: com.typesafe.scala-logging:scala-logging_2.12
+[debug] :: no conflict runtime-internal: com.yammer.metrics:metrics-core
+[debug] :: no conflict runtime-internal: net.sf.jopt-simple:jopt-simple
+[debug] :: no conflict runtime-internal: org.apache.kafka:kafka-clients
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: merging module reports for runtime-internal: com.typesafe.akka:akka-stream_2.12
+[debug] ::: resolving conflict in runtime-internal:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())
+[debug] ::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()
+[debug] :::: transitively evicted runtime-internal: org.reactivestreams:reactive-streams:1.0.2
+[debug] :::: transitively evicted runtime-internal: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :::: transitively evicted runtime-internal: com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted runtime-internal: com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :: merging module reports for runtime-internal: com.typesafe.akka:akka-http-spray-json_2.12
+[debug] ::: resolving conflict in runtime-internal:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()
+[debug] :::: transitively evicted runtime-internal: io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict runtime-internal: io.netty:netty-codec-http
+[debug] :: no conflict runtime-internal: io.netty:netty-handler
+[debug] :: no conflict runtime-internal: org.json:json
+[debug] :: no conflict runtime-internal: com.google.cloud:google-cloud-firestore
+[debug] :: no conflict runtime-internal: com.google.cloud:google-cloud-storage
+[debug] :: no conflict runtime-internal: com.google.api-client:google-api-client-gson
+[debug] :: no conflict runtime-internal: ch.qos.logback:logback-core
+[debug] :: no conflict runtime-internal: com.pauldijou:jwt-core_2.12
+[debug] :: no conflict runtime-internal: org.apache.yetus:audience-annotations
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: merging module reports for runtime-internal: org.slf4j:slf4j-api
+[debug] ::: adds org.slf4j:slf4j-api:1.7.25
+[debug] ::: evicted 
+[debug] :: no conflict runtime-internal: org.xerial.snappy:snappy-java
+[debug] :: no conflict runtime-internal: org.lz4:lz4-java
+[debug] :: no conflict runtime-internal: com.github.luben:zstd-jni
+[debug] :: merging module reports for runtime-internal: com.typesafe.akka:akka-actor_2.12
+[debug] ::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted runtime-internal: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] :: merging module reports for runtime-internal: com.typesafe:ssl-config-core_2.12
+[debug] ::: adds com.typesafe:ssl-config-core_2.12:0.3.6
+[debug] ::: evicted com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :::: transitively evicted runtime-internal: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] :: merging module reports for runtime-internal: org.reactivestreams:reactive-streams
+[debug] ::: adds org.reactivestreams:reactive-streams:1.0.2
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: com.typesafe.akka:akka-protobuf_2.12
+[debug] ::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :: merging module reports for runtime-internal: com.typesafe.akka:akka-http_2.12
+[debug] ::: resolving conflict in runtime-internal:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()
+[debug] :::: transitively evicted runtime-internal: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :: merging module reports for runtime-internal: io.spray:spray-json_2.12
+[debug] ::: adds io.spray:spray-json_2.12:1.3.5
+[debug] ::: evicted io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict runtime-internal: io.netty:netty-codec
+[debug] :: no conflict runtime-internal: io.opencensus:opencensus-contrib-grpc-util
+[debug] :: no conflict runtime-internal: com.google.auto.value:auto-value
+[debug] :: no conflict runtime-internal: com.google.api.grpc:proto-google-cloud-firestore-v1beta1
+[debug] :: no conflict runtime-internal: com.google.cloud:google-cloud-core-grpc
+[debug] :: no conflict runtime-internal: com.google.apis:google-api-services-storage
+[debug] :: no conflict runtime-internal: com.google.cloud:google-cloud-core-http
+[debug] :: no conflict runtime-internal: com.google.http-client:google-http-client-gson
+[debug] :: no conflict runtime-internal: org.bouncycastle:bcpkix-jdk15on
+[debug] :: no conflict runtime-internal: com.pauldijou:jwt-core-impl_2.12
+[debug] :: merging module reports for runtime-internal: com.typesafe:config
+[debug] ::: adds com.typesafe:config:1.3.3
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] ::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] ::: evicted 
+[debug] :: merging module reports for runtime-internal: com.typesafe.akka:akka-http-core_2.12
+[debug] ::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :::: transitively evicted runtime-internal: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict runtime-internal: io.netty:netty-transport
+[debug] :: no conflict runtime-internal: com.google.api:gax-grpc
+[debug] :: no conflict runtime-internal: io.grpc:grpc-netty-shaded
+[debug] :: no conflict runtime-internal: io.opencensus:opencensus-contrib-http-util
+[debug] :: no conflict runtime-internal: com.google.api:gax-httpjson
+[debug] :: no conflict runtime-internal: com.google.http-client:google-http-client-jackson
+[debug] :: no conflict runtime-internal: com.google.http-client:google-http-client-appengine
+[debug] :: no conflict runtime-internal: com.google.cloud:google-cloud-core
+[debug] :: no conflict runtime-internal: com.google.api-client:google-api-client
+[debug] :: no conflict runtime-internal: org.bouncycastle:bcprov-jdk15on
+[debug] :: merging module reports for runtime-internal: com.typesafe.akka:akka-parsing_2.12
+[debug] ::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict runtime-internal: io.netty:netty-resolver
+[debug] :: no conflict runtime-internal: io.netty:netty-buffer
+[debug] :: no conflict runtime-internal: io.grpc:grpc-stub
+[debug] :: no conflict runtime-internal: io.grpc:grpc-protobuf
+[debug] :: no conflict runtime-internal: io.grpc:grpc-auth
+[debug] :: no conflict runtime-internal: org.codehaus.jackson:jackson-core-asl
+[debug] :: no conflict runtime-internal: com.google.api.grpc:proto-google-iam-v1
+[debug] :: no conflict runtime-internal: com.google.protobuf:protobuf-java-util
+[debug] :: no conflict runtime-internal: com.google.api:gax
+[debug] :: no conflict runtime-internal: joda-time:joda-time
+[debug] :: no conflict runtime-internal: com.google.oauth-client:google-oauth-client
+[debug] :: merging module reports for runtime-internal: org.scala-lang:scala-library
+[debug] ::: resolving conflict in runtime-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))
+[debug] ::: adds org.scala-lang:scala-library:2.12.8 ()
+[debug] ::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.7 ()
+[debug] :: no conflict runtime-internal: io.netty:netty-common
+[debug] :: no conflict runtime-internal: io.grpc:grpc-protobuf-lite
+[debug] :: no conflict runtime-internal: com.google.api.grpc:proto-google-common-protos
+[debug] :: no conflict runtime-internal: org.threeten:threetenbp
+[debug] :: no conflict runtime-internal: com.google.auth:google-auth-library-oauth2-http
+[debug] :: no conflict runtime-internal: com.google.api:api-common
+[debug] :: no conflict runtime-internal: io.grpc:grpc-core
+[debug] :: no conflict runtime-internal: com.google.protobuf:protobuf-java
+[debug] :: no conflict runtime-internal: com.google.auth:google-auth-library-credentials
+[debug] :: no conflict runtime-internal: com.google.http-client:google-http-client-jackson2
+[debug] :: merging module reports for runtime-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: resolving conflict in runtime-internal:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.7
+[debug] ::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6
+[debug] :: no conflict runtime-internal: io.opencensus:opencensus-contrib-grpc-metrics
+[debug] :: no conflict runtime-internal: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict runtime-internal: com.google.code.gson:gson
+[debug] :: no conflict runtime-internal: com.google.http-client:google-http-client
+[debug] :: no conflict runtime-internal: io.opencensus:opencensus-api
+[debug] :: no conflict runtime-internal: org.apache.httpcomponents:httpclient
+[debug] :: no conflict runtime-internal: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict runtime-internal: com.google.code.findbugs:jsr305
+[debug] :: no conflict runtime-internal: io.grpc:grpc-context
+[debug] :: no conflict runtime-internal: commons-codec:commons-codec
+[debug] :: no conflict runtime-internal: org.apache.httpcomponents:httpcore
+[debug] :: no conflict runtime-internal: commons-logging:commons-logging
+[debug] :: no conflict runtime-internal: com.google.guava:guava
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: org.scalatest:scalatest_2.12, org.mockito:mockito-core, org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.scala-lang.modules:scala-xml_2.12, org.scalactic:scalactic_2.12, org.objenesis:objenesis, net.bytebuddy:byte-buddy-agent, net.bytebuddy:byte-buddy, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.scala-lang:scala-reflect, org.apache.yetus:audience-annotations, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava
+[debug] :: no conflict test-internal: org.scalatest:scalatest_2.12
+[debug] :: no conflict test-internal: org.mockito:mockito-core
+[debug] :: no conflict test-internal: org.apache.kafka:kafka_2.12
+[debug] :: no conflict test-internal: com.typesafe.akka:akka-testkit_2.12
+[debug] :: no conflict test-internal: com.typesafe.akka:akka-http-testkit_2.12
+[debug] :: no conflict test-internal: com.google.firebase:firebase-admin
+[debug] :: no conflict test-internal: ch.qos.logback:logback-classic
+[debug] :: no conflict test-internal: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12
+[debug] :: no conflict test-internal: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict test-internal: org.scalactic:scalactic_2.12
+[debug] :: no conflict test-internal: org.objenesis:objenesis
+[debug] :: no conflict test-internal: net.bytebuddy:byte-buddy-agent
+[debug] :: no conflict test-internal: net.bytebuddy:byte-buddy
+[debug] :: no conflict test-internal: org.apache.zookeeper:zookeeper
+[debug] :: no conflict test-internal: com.101tec:zkclient
+[debug] :: no conflict test-internal: com.typesafe.scala-logging:scala-logging_2.12
+[debug] :: no conflict test-internal: com.yammer.metrics:metrics-core
+[debug] :: no conflict test-internal: net.sf.jopt-simple:jopt-simple
+[debug] :: no conflict test-internal: org.apache.kafka:kafka-clients
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-databind
+[debug] :: merging module reports for test-internal: com.typesafe.akka:akka-stream_2.12
+[debug] ::: resolving conflict in test-internal:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())
+[debug] ::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()
+[debug] :::: transitively evicted test-internal: org.reactivestreams:reactive-streams:1.0.2
+[debug] :::: transitively evicted test-internal: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :::: transitively evicted test-internal: com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted test-internal: com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :: merging module reports for test-internal: com.typesafe.akka:akka-http-spray-json_2.12
+[debug] ::: resolving conflict in test-internal:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()
+[debug] :::: transitively evicted test-internal: io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict test-internal: io.netty:netty-codec-http
+[debug] :: no conflict test-internal: io.netty:netty-handler
+[debug] :: no conflict test-internal: org.json:json
+[debug] :: no conflict test-internal: com.google.cloud:google-cloud-firestore
+[debug] :: no conflict test-internal: com.google.cloud:google-cloud-storage
+[debug] :: no conflict test-internal: com.google.api-client:google-api-client-gson
+[debug] :: no conflict test-internal: ch.qos.logback:logback-core
+[debug] :: no conflict test-internal: com.pauldijou:jwt-core_2.12
+[debug] :: merging module reports for test-internal: org.scala-lang:scala-reflect
+[debug] ::: resolving conflict in test-internal:org.scala-lang:scala-reflect (org.scala-lang:scala-reflect:2.12.7 (), org.scala-lang:scala-reflect:2.12.4 ())
+[debug] ::: adds org.scala-lang:scala-reflect:2.12.7 ()
+[debug] ::: evicted org.scala-lang:scala-reflect:2.12.4 ()
+[debug] :: no conflict test-internal: org.apache.yetus:audience-annotations
+[debug] :: no conflict test-internal: com.fasterxml.jackson.core:jackson-annotations
+[debug] :: merging module reports for test-internal: org.slf4j:slf4j-api
+[debug] ::: adds org.slf4j:slf4j-api:1.7.25
+[debug] ::: evicted 
+[debug] :: no conflict test-internal: org.xerial.snappy:snappy-java
+[debug] :: no conflict test-internal: org.lz4:lz4-java
+[debug] :: no conflict test-internal: com.github.luben:zstd-jni
+[debug] :: merging module reports for test-internal: com.typesafe.akka:akka-actor_2.12
+[debug] ::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()
+[debug] :::: transitively evicted test-internal: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] :: merging module reports for test-internal: com.typesafe:ssl-config-core_2.12
+[debug] ::: adds com.typesafe:ssl-config-core_2.12:0.3.6
+[debug] ::: evicted com.typesafe:ssl-config-core_2.12:0.2.4
+[debug] :::: transitively evicted test-internal: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] :: merging module reports for test-internal: org.reactivestreams:reactive-streams
+[debug] ::: adds org.reactivestreams:reactive-streams:1.0.2
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.typesafe.akka:akka-protobuf_2.12
+[debug] ::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()
+[debug] ::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()
+[debug] :: merging module reports for test-internal: com.typesafe.akka:akka-http_2.12
+[debug] ::: resolving conflict in test-internal:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())
+[debug] ::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()
+[debug] :::: transitively evicted test-internal: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :: merging module reports for test-internal: io.spray:spray-json_2.12
+[debug] ::: adds io.spray:spray-json_2.12:1.3.5
+[debug] ::: evicted io.spray:spray-json_2.12:1.3.4
+[debug] :: no conflict test-internal: io.netty:netty-codec
+[debug] :: no conflict test-internal: io.opencensus:opencensus-contrib-grpc-util
+[debug] :: no conflict test-internal: com.google.auto.value:auto-value
+[debug] :: no conflict test-internal: com.google.api.grpc:proto-google-cloud-firestore-v1beta1
+[debug] :: no conflict test-internal: com.google.cloud:google-cloud-core-grpc
+[debug] :: no conflict test-internal: com.google.apis:google-api-services-storage
+[debug] :: no conflict test-internal: com.google.cloud:google-cloud-core-http
+[debug] :: no conflict test-internal: com.google.http-client:google-http-client-gson
+[debug] :: no conflict test-internal: org.bouncycastle:bcpkix-jdk15on
+[debug] :: no conflict test-internal: com.pauldijou:jwt-core-impl_2.12
+[debug] :: merging module reports for test-internal: com.typesafe:config
+[debug] ::: adds com.typesafe:config:1.3.3
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: org.scala-lang.modules:scala-parser-combinators_2.12
+[debug] ::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1
+[debug] ::: evicted 
+[debug] :: merging module reports for test-internal: com.typesafe.akka:akka-http-core_2.12
+[debug] ::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()
+[debug] :::: transitively evicted test-internal: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict test-internal: io.netty:netty-transport
+[debug] :: no conflict test-internal: com.google.api:gax-grpc
+[debug] :: no conflict test-internal: io.grpc:grpc-netty-shaded
+[debug] :: no conflict test-internal: io.opencensus:opencensus-contrib-http-util
+[debug] :: no conflict test-internal: com.google.api:gax-httpjson
+[debug] :: no conflict test-internal: com.google.http-client:google-http-client-jackson
+[debug] :: no conflict test-internal: com.google.http-client:google-http-client-appengine
+[debug] :: no conflict test-internal: com.google.cloud:google-cloud-core
+[debug] :: no conflict test-internal: com.google.api-client:google-api-client
+[debug] :: no conflict test-internal: org.bouncycastle:bcprov-jdk15on
+[debug] :: merging module reports for test-internal: com.typesafe.akka:akka-parsing_2.12
+[debug] ::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()
+[debug] ::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()
+[debug] :: no conflict test-internal: io.netty:netty-resolver
+[debug] :: no conflict test-internal: io.netty:netty-buffer
+[debug] :: no conflict test-internal: io.grpc:grpc-stub
+[debug] :: no conflict test-internal: io.grpc:grpc-protobuf
+[debug] :: no conflict test-internal: io.grpc:grpc-auth
+[debug] :: no conflict test-internal: org.codehaus.jackson:jackson-core-asl
+[debug] :: no conflict test-internal: com.google.api.grpc:proto-google-iam-v1
+[debug] :: no conflict test-internal: com.google.protobuf:protobuf-java-util
+[debug] :: no conflict test-internal: com.google.api:gax
+[debug] :: no conflict test-internal: joda-time:joda-time
+[debug] :: no conflict test-internal: com.google.oauth-client:google-oauth-client
+[debug] :: merging module reports for test-internal: org.scala-lang:scala-library
+[debug] ::: resolving conflict in test-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.4 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())
+[debug] - Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.4 (), 2.12.4, 1507705496000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))
+[debug] ::: adds org.scala-lang:scala-library:2.12.8 ()
+[debug] ::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.4 (), org.scala-lang:scala-library:2.12.7 ()
+[debug] :: no conflict test-internal: io.netty:netty-common
+[debug] :: no conflict test-internal: io.grpc:grpc-protobuf-lite
+[debug] :: no conflict test-internal: com.google.api.grpc:proto-google-common-protos
+[debug] :: no conflict test-internal: org.threeten:threetenbp
+[debug] :: no conflict test-internal: com.google.auth:google-auth-library-oauth2-http
+[debug] :: no conflict test-internal: com.google.api:api-common
+[debug] :: no conflict test-internal: io.grpc:grpc-core
+[debug] :: no conflict test-internal: com.google.protobuf:protobuf-java
+[debug] :: no conflict test-internal: com.google.auth:google-auth-library-credentials
+[debug] :: no conflict test-internal: com.google.http-client:google-http-client-jackson2
+[debug] :: merging module reports for test-internal: com.fasterxml.jackson.core:jackson-core
+[debug] ::: resolving conflict in test-internal:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)
+[debug] ::: adds com.fasterxml.jackson.core:jackson-core:2.9.7
+[debug] ::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6
+[debug] :: no conflict test-internal: io.opencensus:opencensus-contrib-grpc-metrics
+[debug] :: no conflict test-internal: com.google.errorprone:error_prone_annotations
+[debug] :: no conflict test-internal: com.google.code.gson:gson
+[debug] :: no conflict test-internal: com.google.http-client:google-http-client
+[debug] :: no conflict test-internal: io.opencensus:opencensus-api
+[debug] :: no conflict test-internal: org.apache.httpcomponents:httpclient
+[debug] :: no conflict test-internal: com.google.j2objc:j2objc-annotations
+[debug] :: no conflict test-internal: com.google.code.findbugs:jsr305
+[debug] :: no conflict test-internal: io.grpc:grpc-context
+[debug] :: no conflict test-internal: commons-codec:commons-codec
+[debug] :: no conflict test-internal: org.apache.httpcomponents:httpcore
+[debug] :: no conflict test-internal: commons-logging:commons-logging
+[debug] :: no conflict test-internal: com.google.guava:guava
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: merging module reports for scala-tool: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.8 ()
+[debug] ::: evicted 
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
+[info] Done updating.
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: io.spray:spray-json_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds io.spray:spray-json_2.12:1.3.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted io.spray:spray-json_2.12:1.3.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.netty:netty-codec[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.opencensus:opencensus-contrib-grpc-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.auto.value:auto-value[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.api.grpc:proto-google-cloud-firestore-v1beta1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.cloud:google-cloud-core-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.apis:google-api-services-storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.cloud:google-cloud-core-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.http-client:google-http-client-gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.bouncycastle:bcpkix-jdk15on[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.pauldijou:jwt-core-impl_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe:config:1.3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: org.scala-lang.modules:scala-java8-compat_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: org.scala-lang.modules:scala-parser-combinators_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: com.typesafe.akka:akka-http-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.netty:netty-transport[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.api:gax-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.grpc:grpc-netty-shaded[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.opencensus:opencensus-contrib-http-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.api:gax-httpjson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.http-client:google-http-client-jackson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.http-client:google-http-client-appengine[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.cloud:google-cloud-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.api-client:google-api-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.bouncycastle:bcprov-jdk15on[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: com.typesafe.akka:akka-parsing_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.netty:netty-resolver[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.netty:netty-buffer[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.grpc:grpc-stub[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.grpc:grpc-protobuf[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.grpc:grpc-auth[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.codehaus.jackson:jackson-core-asl[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.api.grpc:proto-google-iam-v1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.protobuf:protobuf-java-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.api:gax[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: joda-time:joda-time[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.oauth-client:google-oauth-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.4 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m- Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.4 (), 2.12.4, 1507705496000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.4 (), org.scala-lang:scala-library:2.12.7 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.netty:netty-common[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.grpc:grpc-protobuf-lite[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.api.grpc:proto-google-common-protos[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.threeten:threetenbp[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.auth:google-auth-library-oauth2-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.api:api-common[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.grpc:grpc-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.protobuf:protobuf-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.auth:google-auth-library-credentials[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.http-client:google-http-client-jackson2[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: com.fasterxml.jackson.core:jackson-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.fasterxml.jackson.core:jackson-core:2.9.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.opencensus:opencensus-contrib-grpc-metrics[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.errorprone:error_prone_annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.code.gson:gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.http-client:google-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.opencensus:opencensus-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.apache.httpcomponents:httpclient[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.j2objc:j2objc-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.code.findbugs:jsr305[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.grpc:grpc-context[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: commons-codec:commons-codec[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.apache.httpcomponents:httpcore[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: commons-logging:commons-logging[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.google.guava:guava[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: provided: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: optional: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: compile-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.apache.yetus:audience-annotations, org.scala-lang:scala-reflect, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.apache.kafka:kafka_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.typesafe.akka:akka-testkit_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.typesafe.akka:akka-http-testkit_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.firebase:firebase-admin[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: ch.qos.logback:logback-classic[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.apache.zookeeper:zookeeper[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.101tec:zkclient[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.typesafe.scala-logging:scala-logging_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.yammer.metrics:metrics-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: net.sf.jopt-simple:jopt-simple[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.apache.kafka:kafka-clients[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.fasterxml.jackson.core:jackson-databind[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe.akka:akka-stream_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile-internal:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: org.reactivestreams:reactive-streams:1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: com.typesafe.akka:akka-actor_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: com.typesafe:ssl-config-core_2.12:0.2.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe.akka:akka-http-spray-json_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile-internal:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: io.spray:spray-json_2.12:1.3.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty-codec-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty-handler[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.json:json[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.cloud:google-cloud-firestore[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.cloud:google-cloud-storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api-client:google-api-client-gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: ch.qos.logback:logback-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.pauldijou:jwt-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.apache.yetus:audience-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.scala-lang:scala-reflect[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.fasterxml.jackson.core:jackson-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.slf4j:slf4j-api:1.7.25[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.xerial.snappy:snappy-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.lz4:lz4-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.github.luben:zstd-jni[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe.akka:akka-actor_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe:ssl-config-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe:ssl-config-core_2.12:0.3.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe:ssl-config-core_2.12:0.2.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: org.reactivestreams:reactive-streams[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.reactivestreams:reactive-streams:1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe.akka:akka-protobuf_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe.akka:akka-http_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile-internal:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: io.spray:spray-json_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds io.spray:spray-json_2.12:1.3.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted io.spray:spray-json_2.12:1.3.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty-codec[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.opencensus:opencensus-contrib-grpc-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.auto.value:auto-value[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api.grpc:proto-google-cloud-firestore-v1beta1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.cloud:google-cloud-core-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.apis:google-api-services-storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.cloud:google-cloud-core-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.http-client:google-http-client-gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.bouncycastle:bcpkix-jdk15on[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.pauldijou:jwt-core-impl_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe:config:1.3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: org.scala-lang.modules:scala-java8-compat_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: org.scala-lang.modules:scala-parser-combinators_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe.akka:akka-http-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted compile-internal: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty-transport[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api:gax-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.grpc:grpc-netty-shaded[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.opencensus:opencensus-contrib-http-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api:gax-httpjson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.http-client:google-http-client-jackson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.http-client:google-http-client-appengine[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.cloud:google-cloud-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api-client:google-api-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.bouncycastle:bcprov-jdk15on[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.typesafe.akka:akka-parsing_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty-resolver[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty-buffer[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.grpc:grpc-stub[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.grpc:grpc-protobuf[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.grpc:grpc-auth[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.codehaus.jackson:jackson-core-asl[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api.grpc:proto-google-iam-v1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.protobuf:protobuf-java-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api:gax[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: joda-time:joda-time[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.oauth-client:google-oauth-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m- Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.7 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty-common[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.grpc:grpc-protobuf-lite[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api.grpc:proto-google-common-protos[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.threeten:threetenbp[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.auth:google-auth-library-oauth2-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.api:api-common[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.grpc:grpc-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.protobuf:protobuf-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.auth:google-auth-library-credentials[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.http-client:google-http-client-jackson2[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: com.fasterxml.jackson.core:jackson-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile-internal:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.fasterxml.jackson.core:jackson-core:2.9.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.opencensus:opencensus-contrib-grpc-metrics[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.errorprone:error_prone_annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.code.gson:gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.http-client:google-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.opencensus:opencensus-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.apache.httpcomponents:httpclient[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.j2objc:j2objc-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.code.findbugs:jsr305[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.grpc:grpc-context[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: commons-codec:commons-codec[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.apache.httpcomponents:httpcore[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: commons-logging:commons-logging[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.google.guava:guava[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: runtime-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.apache.yetus:audience-annotations, org.scala-lang:scala-reflect, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.apache.kafka:kafka_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.typesafe.akka:akka-testkit_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.typesafe.akka:akka-http-testkit_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.firebase:firebase-admin[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: ch.qos.logback:logback-classic[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.apache.zookeeper:zookeeper[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.101tec:zkclient[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.typesafe.scala-logging:scala-logging_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.yammer.metrics:metrics-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: net.sf.jopt-simple:jopt-simple[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.apache.kafka:kafka-clients[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-databind[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe.akka:akka-stream_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime-internal:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: org.reactivestreams:reactive-streams:1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: com.typesafe.akka:akka-actor_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: com.typesafe:ssl-config-core_2.12:0.2.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe.akka:akka-http-spray-json_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime-internal:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: io.spray:spray-json_2.12:1.3.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty-codec-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty-handler[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.json:json[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.cloud:google-cloud-firestore[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.cloud:google-cloud-storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api-client:google-api-client-gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: ch.qos.logback:logback-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.pauldijou:jwt-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.apache.yetus:audience-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.scala-lang:scala-reflect[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.fasterxml.jackson.core:jackson-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.slf4j:slf4j-api:1.7.25[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.xerial.snappy:snappy-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.lz4:lz4-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.github.luben:zstd-jni[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe.akka:akka-actor_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe:ssl-config-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe:ssl-config-core_2.12:0.3.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe:ssl-config-core_2.12:0.2.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: org.reactivestreams:reactive-streams[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.reactivestreams:reactive-streams:1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe.akka:akka-protobuf_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe.akka:akka-http_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime-internal:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: io.spray:spray-json_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds io.spray:spray-json_2.12:1.3.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted io.spray:spray-json_2.12:1.3.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty-codec[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.opencensus:opencensus-contrib-grpc-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.auto.value:auto-value[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api.grpc:proto-google-cloud-firestore-v1beta1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.cloud:google-cloud-core-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.apis:google-api-services-storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.cloud:google-cloud-core-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.http-client:google-http-client-gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.bouncycastle:bcpkix-jdk15on[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.pauldijou:jwt-core-impl_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe:config:1.3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: org.scala-lang.modules:scala-java8-compat_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: org.scala-lang.modules:scala-parser-combinators_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe.akka:akka-http-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted runtime-internal: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty-transport[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api:gax-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.grpc:grpc-netty-shaded[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.opencensus:opencensus-contrib-http-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api:gax-httpjson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.http-client:google-http-client-jackson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.http-client:google-http-client-appengine[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.cloud:google-cloud-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api-client:google-api-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.bouncycastle:bcprov-jdk15on[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.typesafe.akka:akka-parsing_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty-resolver[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty-buffer[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.grpc:grpc-stub[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.grpc:grpc-protobuf[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.grpc:grpc-auth[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.codehaus.jackson:jackson-core-asl[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api.grpc:proto-google-iam-v1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.protobuf:protobuf-java-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api:gax[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: joda-time:joda-time[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.oauth-client:google-oauth-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m- Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.7 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty-common[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.grpc:grpc-protobuf-lite[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api.grpc:proto-google-common-protos[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.threeten:threetenbp[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.auth:google-auth-library-oauth2-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.api:api-common[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.grpc:grpc-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.protobuf:protobuf-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.auth:google-auth-library-credentials[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.http-client:google-http-client-jackson2[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: com.fasterxml.jackson.core:jackson-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime-internal:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.fasterxml.jackson.core:jackson-core:2.9.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.opencensus:opencensus-contrib-grpc-metrics[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.errorprone:error_prone_annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.code.gson:gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.http-client:google-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.opencensus:opencensus-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.apache.httpcomponents:httpclient[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.j2objc:j2objc-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.code.findbugs:jsr305[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.grpc:grpc-context[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: commons-codec:commons-codec[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.apache.httpcomponents:httpcore[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: commons-logging:commons-logging[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.google.guava:guava[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: test-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: org.scalatest:scalatest_2.12, org.mockito:mockito-core, org.apache.kafka:kafka_2.12, com.typesafe.akka:akka-testkit_2.12, com.typesafe.akka:akka-http-testkit_2.12, com.google.firebase:firebase-admin, ch.qos.logback:logback-classic, com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12, org.scala-lang.modules:scala-xml_2.12, org.scalactic:scalactic_2.12, org.objenesis:objenesis, net.bytebuddy:byte-buddy-agent, net.bytebuddy:byte-buddy, org.apache.zookeeper:zookeeper, com.101tec:zkclient, com.typesafe.scala-logging:scala-logging_2.12, com.yammer.metrics:metrics-core, net.sf.jopt-simple:jopt-simple, org.apache.kafka:kafka-clients, com.fasterxml.jackson.core:jackson-databind, com.typesafe.akka:akka-stream_2.12, com.typesafe.akka:akka-http-spray-json_2.12, io.netty:netty-codec-http, io.netty:netty-handler, org.json:json, com.google.cloud:google-cloud-firestore, com.google.cloud:google-cloud-storage, com.google.api-client:google-api-client-gson, ch.qos.logback:logback-core, com.pauldijou:jwt-core_2.12, org.scala-lang:scala-reflect, org.apache.yetus:audience-annotations, com.fasterxml.jackson.core:jackson-annotations, org.slf4j:slf4j-api, org.xerial.snappy:snappy-java, org.lz4:lz4-java, com.github.luben:zstd-jni, com.typesafe.akka:akka-actor_2.12, com.typesafe:ssl-config-core_2.12, org.reactivestreams:reactive-streams, com.typesafe.akka:akka-protobuf_2.12, com.typesafe.akka:akka-http_2.12, io.spray:spray-json_2.12, io.netty:netty-codec, io.opencensus:opencensus-contrib-grpc-util, com.google.auto.value:auto-value, com.google.api.grpc:proto-google-cloud-firestore-v1beta1, com.google.cloud:google-cloud-core-grpc, com.google.apis:google-api-services-storage, com.google.cloud:google-cloud-core-http, com.google.http-client:google-http-client-gson, org.bouncycastle:bcpkix-jdk15on, com.pauldijou:jwt-core-impl_2.12, com.typesafe:config, org.scala-lang.modules:scala-java8-compat_2.12, org.scala-lang.modules:scala-parser-combinators_2.12, com.typesafe.akka:akka-http-core_2.12, io.netty:netty-transport, com.google.api:gax-grpc, io.grpc:grpc-netty-shaded, io.opencensus:opencensus-contrib-http-util, com.google.api:gax-httpjson, com.google.http-client:google-http-client-jackson, com.google.http-client:google-http-client-appengine, com.google.cloud:google-cloud-core, com.google.api-client:google-api-client, org.bouncycastle:bcprov-jdk15on, com.typesafe.akka:akka-parsing_2.12, io.netty:netty-resolver, io.netty:netty-buffer, io.grpc:grpc-stub, io.grpc:grpc-protobuf, io.grpc:grpc-auth, org.codehaus.jackson:jackson-core-asl, com.google.api.grpc:proto-google-iam-v1, com.google.protobuf:protobuf-java-util, com.google.api:gax, joda-time:joda-time, com.google.oauth-client:google-oauth-client, org.scala-lang:scala-library, io.netty:netty-common, io.grpc:grpc-protobuf-lite, com.google.api.grpc:proto-google-common-protos, org.threeten:threetenbp, com.google.auth:google-auth-library-oauth2-http, com.google.api:api-common, io.grpc:grpc-core, com.google.protobuf:protobuf-java, com.google.auth:google-auth-library-credentials, com.google.http-client:google-http-client-jackson2, com.fasterxml.jackson.core:jackson-core, io.opencensus:opencensus-contrib-grpc-metrics, com.google.errorprone:error_prone_annotations, com.google.code.gson:gson, com.google.http-client:google-http-client, io.opencensus:opencensus-api, org.apache.httpcomponents:httpclient, com.google.j2objc:j2objc-annotations, com.google.code.findbugs:jsr305, io.grpc:grpc-context, commons-codec:commons-codec, org.apache.httpcomponents:httpcore, commons-logging:commons-logging, com.google.guava:guava[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.scalatest:scalatest_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.mockito:mockito-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.apache.kafka:kafka_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.typesafe.akka:akka-testkit_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.typesafe.akka:akka-http-testkit_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.firebase:firebase-admin[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: ch.qos.logback:logback-classic[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.lightbend.akka:akka-stream-alpakka-google-fcm_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.scala-lang.modules:scala-xml_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.scalactic:scalactic_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.objenesis:objenesis[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: net.bytebuddy:byte-buddy-agent[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: net.bytebuddy:byte-buddy[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.apache.zookeeper:zookeeper[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.101tec:zkclient[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.typesafe.scala-logging:scala-logging_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.yammer.metrics:metrics-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: net.sf.jopt-simple:jopt-simple[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.apache.kafka:kafka-clients[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.fasterxml.jackson.core:jackson-databind[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe.akka:akka-stream_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test-internal:com.typesafe.akka:akka-stream_2.12 (com.typesafe.akka:akka-stream_2.12:2.5.16 (), com.typesafe.akka:akka-stream_2.12:2.5.19 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-stream_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-stream_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: org.reactivestreams:reactive-streams:1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: com.typesafe.akka:akka-actor_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: com.typesafe:ssl-config-core_2.12:0.2.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe.akka:akka-http-spray-json_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test-internal:com.typesafe.akka:akka-http-spray-json_2.12 (com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 (), com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http-spray-json_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http-spray-json_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: io.spray:spray-json_2.12:1.3.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty-codec-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty-handler[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.json:json[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.cloud:google-cloud-firestore[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.cloud:google-cloud-storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api-client:google-api-client-gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: ch.qos.logback:logback-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.pauldijou:jwt-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: org.scala-lang:scala-reflect[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test-internal:org.scala-lang:scala-reflect (org.scala-lang:scala-reflect:2.12.7 (), org.scala-lang:scala-reflect:2.12.4 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-reflect:2.12.7 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-reflect:2.12.4 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.apache.yetus:audience-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.fasterxml.jackson.core:jackson-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.slf4j:slf4j-api:1.7.25[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.xerial.snappy:snappy-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.lz4:lz4-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.github.luben:zstd-jni[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe.akka:akka-actor_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-actor_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-actor_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe:ssl-config-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe:ssl-config-core_2.12:0.3.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe:ssl-config-core_2.12:0.2.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: org.reactivestreams:reactive-streams[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.reactivestreams:reactive-streams:1.0.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe.akka:akka-protobuf_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-protobuf_2.12:2.5.19 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-protobuf_2.12:2.5.16 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe.akka:akka-http_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test-internal:com.typesafe.akka:akka-http_2.12 (com.typesafe.akka:akka-http_2.12:10.1.6 (), com.typesafe.akka:akka-http_2.12:10.1.5 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: com.typesafe.akka:akka-http-core_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: io.spray:spray-json_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds io.spray:spray-json_2.12:1.3.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted io.spray:spray-json_2.12:1.3.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty-codec[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.opencensus:opencensus-contrib-grpc-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.auto.value:auto-value[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api.grpc:proto-google-cloud-firestore-v1beta1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.cloud:google-cloud-core-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.apis:google-api-services-storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.cloud:google-cloud-core-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.http-client:google-http-client-gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.bouncycastle:bcpkix-jdk15on[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.pauldijou:jwt-core-impl_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe:config:1.3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: org.scala-lang.modules:scala-java8-compat_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang.modules:scala-java8-compat_2.12:0.8.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: org.scala-lang.modules:scala-parser-combinators_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe.akka:akka-http-core_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-http-core_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-http-core_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:::: transitively evicted test-internal: com.typesafe.akka:akka-parsing_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty-transport[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api:gax-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.grpc:grpc-netty-shaded[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.opencensus:opencensus-contrib-http-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api:gax-httpjson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.http-client:google-http-client-jackson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.http-client:google-http-client-appengine[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.cloud:google-cloud-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api-client:google-api-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.bouncycastle:bcprov-jdk15on[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.typesafe.akka:akka-parsing_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.typesafe.akka:akka-parsing_2.12:10.1.6 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.typesafe.akka:akka-parsing_2.12:10.1.5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty-resolver[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty-buffer[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.grpc:grpc-stub[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.grpc:grpc-protobuf[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.grpc:grpc-auth[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.codehaus.jackson:jackson-core-asl[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api.grpc:proto-google-iam-v1[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.protobuf:protobuf-java-util[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api:gax[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: joda-time:joda-time[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.oauth-client:google-oauth-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.4 (), org.scala-lang:scala-library:2.12.8 (), org.scala-lang:scala-library:2.12.7 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m- Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.6 (), 2.12.6, 1524818406000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.4 (), 2.12.4, 1507705496000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.7 (), 2.12.7, 1538037342000))[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.6 (), org.scala-lang:scala-library:2.12.4 (), org.scala-lang:scala-library:2.12.7 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty-common[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.grpc:grpc-protobuf-lite[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api.grpc:proto-google-common-protos[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.threeten:threetenbp[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.auth:google-auth-library-oauth2-http[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.api:api-common[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.grpc:grpc-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.protobuf:protobuf-java[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.auth:google-auth-library-credentials[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.http-client:google-http-client-jackson2[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: com.fasterxml.jackson.core:jackson-core[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test-internal:com.fasterxml.jackson.core:jackson-core (com.fasterxml.jackson.core:jackson-core:2.9.6, com.fasterxml.jackson.core:jackson-core:2.9.7)[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds com.fasterxml.jackson.core:jackson-core:2.9.7[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted com.fasterxml.jackson.core:jackson-core:2.9.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.opencensus:opencensus-contrib-grpc-metrics[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.errorprone:error_prone_annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.code.gson:gson[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.http-client:google-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.opencensus:opencensus-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.apache.httpcomponents:httpclient[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.j2objc:j2objc-annotations[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.code.findbugs:jsr305[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.grpc:grpc-context[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: commons-codec:commons-codec[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.apache.httpcomponents:httpcore[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: commons-logging:commons-logging[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.google.guava:guava[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: plugin: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: pom: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: scala-tool: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang:scala-compiler[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: jline:jline[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang:scala-reflect[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for scala-tool: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
+[0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m

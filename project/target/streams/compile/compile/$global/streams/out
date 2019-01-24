@@ -1,0 +1,4 @@
+[error] /home/knoldus/myproject/project/Dependencies.scala:27:88: value %% is not a member of sbt.librarymanagement.DependencyBuilders.OrganizationArtifactName
+[error]   val firebaseAdmin = "com.google.com.knoldus.firebase" % "com.knoldus.firebase-admin" %% "6.6.0"
+[error]                                                                                        ^
+[error] one error found
